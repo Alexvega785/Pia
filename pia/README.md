@@ -1,6 +1,10 @@
 # PIA · Hiper-heurística de selección para TSP
 
 Osvaldo González Martínez · 2043042 · LCC, FCFM, UANL
+Oliver Alexander Vega Casas 1996963
+Carlos Eduardo Barrios Barron 2065883
+Luis Antonio Diaz Chavez 2086172
+
 
 El programa ejecuta tres métodos de TSP sobre las 500 instancias provistas y entrena un árbol para recomendar un método a partir de las características de la instancia.
 
