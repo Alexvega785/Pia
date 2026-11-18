@@ -1,0 +1,102 @@
+{
+  "algoritmos": [
+    "2opt_hill_climbing",
+    "sa_2opt",
+    "mst_2opt"
+  ],
+  "balance": {
+    "total": {
+      "2opt_hill_climbing": 317,
+      "sa_2opt": 60,
+      "mst_2opt": 123
+    },
+    "train": {
+      "2opt_hill_climbing": 224,
+      "sa_2opt": 42,
+      "mst_2opt": 85
+    },
+    "test": {
+      "2opt_hill_climbing": 93,
+      "sa_2opt": 18,
+      "mst_2opt": 38
+    }
+  },
+  "total_empates": 215,
+  "empates_test": 64,
+  "minimo_unico": {
+    "2opt_hill_climbing": 116,
+    "sa_2opt": 46,
+    "mst_2opt": 123
+  },
+  "baseline_clase": "2opt_hill_climbing",
+  "hiperparametros": {
+    "class_weight": null,
+    "max_depth": 5,
+    "min_samples_leaf": 3
+  },
+  "accuracy_cv": 0.6867605633802818,
+  "profundidad": 5,
+  "hojas": 26,
+  "modelo": {
+    "accuracy": 0.6174496644295302,
+    "aciertos": 92,
+    "balanced_accuracy": 0.541973212601396,
+    "matriz": [
+      [
+        68,
+        15,
+        10
+      ],
+      [
+        7,
+        9,
+        2
+      ],
+      [
+        17,
+        6,
+        15
+      ]
+    ],
+    "regret_promedio": 0.03245170431967027,
+    "regret_mediano": 0.0,
+    "regret_maximo": 0.48425818391924125,
+    "costo_minimo": 101
+  },
+  "baseline": {
+    "accuracy": 0.6241610738255033,
+    "aciertos": 93,
+    "balanced_accuracy": 0.3333333333333333,
+    "matriz": [
+      [
+        93,
+        0,
+        0
+      ],
+      [
+        18,
+        0,
+        0
+      ],
+      [
+        38,
+        0,
+        0
+      ]
+    ],
+    "regret_promedio": 0.0374057465461595,
+    "regret_mediano": 0.0,
+    "regret_maximo": 0.6606616056837842,
+    "costo_minimo": 93
+  },
+  "supera_a_local": {
+    "sa_2opt": {
+      "casos": 26,
+      "modelo_elige": 13
+    },
+    "mst_2opt": {
+      "casos": 47,
+      "modelo_elige": 15
+    }
+  }
+}
